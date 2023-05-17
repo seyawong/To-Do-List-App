@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width">
+	  <title>To-Do List</title>
+	  <link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+	
+	<body>
+	  <h1>To-Do List App</h1>
+		<div id="myBubble" class="bubble">You haven't input anything yet.</div>
+		<div id="myBubble2" class="bubble">A task must be more than 3 characters.</div>
+	  <input type="text" id="input-task" placeholder=">_">
+	  <button onclick="addTask()">Add Task</button>
+	  <ul id="task-list"></ul>
+	  <button onclick="removeCompletedTasks()" id="remove-button">Remove Completed Tasks</button>
+	  <button onclick="removeAllTasks()" id="remove-all-button">Remove All Tasks</button>
+	  <script src="script.js"></script>
+	</body>
+</html>
